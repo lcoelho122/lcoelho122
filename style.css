@@ -1,0 +1,102 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 200;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Helvetica;
+    background-color: #1F25FF;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  /* Header Styles */
+  .header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    color: whitesmoke;
+  }
+  
+  /* Navigation Styles */
+  .nav {
+    text-align: center;
+    background-color: #1F25FF;
+    padding: 20px ;
+  }
+  
+  .nav-list {
+    list-style: none;
+  }
+  
+  .nav-list li {
+    display: inline-block;
+    margin: 0px 50px;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .nav-list li a:hover {
+    background-color: whitesmoke;
+    color: #242424;
+  }
+  
+  /* Main Content Styles */
+  .main {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #242424;
+  }
+  
+  .section {
+    background-color: #5b5c5c;
+    padding: 20px 500px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 120px;
+    margin-right: 150px;
+    display: block;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .section p {
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .img {
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  footer {
+    background-color: #1F25FF;
+    color: whitesmoke;
+    text-align: center;
+  }
